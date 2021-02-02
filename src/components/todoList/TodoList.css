@@ -1,0 +1,34 @@
+.list-item {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 10px;
+    background: darkslategray;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgba(0,0,0, 0.3);
+}
+
+ul {
+    padding: 0;
+}
+
+.list-item > input {
+    margin-right: 10px;
+}
+
+.list-item > span {
+    margin-left: 15px;
+    width: 15px;
+    line-height: 15px;
+    font-weight: bold;
+    height: 15px;
+    padding: 5px;
+    color: aliceblue;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
